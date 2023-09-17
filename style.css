@@ -1,8 +1,99 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+
 .landingPage{
     background: #2F1893;
 
 }
-.landingPage img{
-    opacity: 50%;
 
+.HeaderMenu{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width:469px;
+    height: 26px;
+    top: 85px;
+    left: 466px;
+}
+.HeaderMenu li{
+    position: relative;
+    list-style-type: none;
+    display: inline-flex;
+    background: #FFFFFF;
+    opacity:100%;
+    background-color: transparent;
+}
+
+.HeaderMenu a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    size:18px;
+    line-height: 26px;
+    padding-right: 30px;
+}
+
+.txt{
+    text-align: center;
+    font-family: 'DM Sans' !important;
+    position: absolute;
+    width:736px;
+    height:257px;
+    top: 253px;
+    left:332px;
+    color:#fff;
+}
+
+.txt h1{
+    line-height: 86px;
+    width: 641px;
+    height: 86px;
+    font-weight: 700;
+    font-size: 72px;
+    margin: 0 auto;
+}
+.txt h5{
+    font-weight: 500;
+    font-size: 22px;
+    width: 736px;
+}
+
+.paginator{
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    top: 558px;
+    left:624px;
+    display: block;
+    height: 11px;
+    width: 91px;
+
+}
+.paginator li{
+    display: inline-block;
+    list-style-type: none;
+    color:#fff;
+    opacity: 70%;
+
+}
+.rectangle{
+    position: absolute;
+    top:627px;
+    height: 60px;
+    width: 230px;
+    left: 585px;
+    background: #482BE7;
+    color:#fff;
+    border-radius: 100px;
+}
+
+.rectangle h2{
+    position: relative;
+    width: 200px;
+    height: 26px;
+    top: -8px;
+    left: 22px;
 }
